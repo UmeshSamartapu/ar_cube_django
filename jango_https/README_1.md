@@ -215,16 +215,3 @@ Use this scene configuration in your template:
 </a-scene>
 ```
 
----
-
-# 🚀 If you want, I can also show you
-
-**How to make your AR Django project MUCH better:**
-
-* markerless AR (place object on floor)
-* touch rotation on phone
-* pinch zoom on model
-* stable AR tracking
-* deploy AR Django online
-
-These will make your **project look like a real AR product.**
