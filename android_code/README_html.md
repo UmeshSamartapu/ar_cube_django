@@ -22,7 +22,6 @@ overflow:hidden;
 
 <body>
 
-    
 <a-scene
 embedded
 vr-mode-ui="enabled: false"
@@ -43,7 +42,6 @@ animation="property: rotation; to: 0 360 0; loop: true; dur: 4000">
 <a-entity camera></a-entity>
 
 </a-scene>
-
 
 </body>
 </html>

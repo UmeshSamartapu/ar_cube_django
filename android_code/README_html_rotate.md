@@ -22,28 +22,22 @@ overflow:hidden;
 
 <body>
 
-    
-<a-scene
-embedded
-vr-mode-ui="enabled: false"
-renderer="logarithmicDepthBuffer: true;"
-arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;">
+    <a-scene embedded arjs>
 
-<a-marker preset="hiro">
+    <a-marker preset="hiro">
 
-<a-box
-position="0 0.5 0"
-rotation="0 45 0"
-color="red"
-animation="property: rotation; to: 0 360 0; loop: true; dur: 4000">
-</a-box>
+        <a-entity
+            gltf-model="{% static 'models/colored_cube.glb' %}"
+            scale="0.7 0.7 0.7"
+            position="0 0 0"
+            animation="property: rotation; to: 0 360 0; loop: true; dur: 8000; easing: linear">
+        </a-entity>
 
-</a-marker>
+    </a-marker>
 
-<a-entity camera></a-entity>
+    <a-entity camera></a-entity>
 
 </a-scene>
-
 
 </body>
 </html>
