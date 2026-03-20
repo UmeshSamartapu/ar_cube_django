@@ -1,3 +1,4 @@
+```html
 {% load static %}
 
 <!DOCTYPE html>
@@ -357,3 +358,5 @@ auto-center>
 
 </body>
 </html>
+
+```
